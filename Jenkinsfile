@@ -63,7 +63,20 @@ pipeline
             }
         }
         
-        
+          stage('Publish Allure Results') {
+                    steps {
+                        script {
+                            // Publish Allure results to Jenkins
+                            allure([
+                                includeProperties: false,
+                                jdk: '',
+                                properties: [],
+                                reportBuildPolicy: 'ALWAYS',
+                                results: [[path: 'target/allure-results']]
+                            ])
+                        }
+                    }
+                }
         stage("Deploy to PROD"){
             steps{
                 echo("deploy to PROD")
