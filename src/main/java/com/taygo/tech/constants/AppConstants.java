@@ -1,4 +1,4 @@
-package com.qa.opencart.constants;
+package com.taygo.tech.constants;
 
 import java.util.Arrays;
 import java.util.List;

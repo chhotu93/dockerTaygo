@@ -1,10 +1,10 @@
-package com.qa.opencart.tests;
+package com.taygo.tech.tests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.qa.opencart.base.BaseTest;
-import com.qa.opencart.constants.AppConstants;
+import com.taygo.tech.base.BaseTest;
+import com.taygo.tech.constants.AppConstants;
 
 public class LoginPageTest extends BaseTest {
 

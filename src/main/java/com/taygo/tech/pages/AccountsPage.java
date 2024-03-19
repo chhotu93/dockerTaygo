@@ -1,4 +1,4 @@
-package com.qa.opencart.pages;
+package com.taygo.tech.pages;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,8 +7,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import com.qa.opencart.constants.AppConstants;
-import com.qa.opencart.utils.ElementUtil;
+import com.taygo.tech.constants.AppConstants;
+import com.taygo.tech.utils.ElementUtil;
 
 public class AccountsPage {
 

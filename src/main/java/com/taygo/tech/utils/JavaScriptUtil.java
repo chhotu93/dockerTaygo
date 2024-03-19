@@ -1,4 +1,4 @@
-package com.qa.opencart.utils;
+package com.taygo.tech.utils;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;

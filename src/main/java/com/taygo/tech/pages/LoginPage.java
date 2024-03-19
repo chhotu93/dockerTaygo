@@ -1,14 +1,10 @@
-package com.qa.opencart.pages;
+package com.taygo.tech.pages;
 
+import com.taygo.tech.utils.ElementUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 
-import com.qa.opencart.constants.AppConstants;
-import com.qa.opencart.utils.ElementUtil;
-
-import io.qameta.allure.Step;
+import com.taygo.tech.constants.AppConstants;
 
 public class LoginPage {
 

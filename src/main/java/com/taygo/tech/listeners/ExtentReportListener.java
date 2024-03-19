@@ -1,4 +1,4 @@
-package com.qa.opencart.listeners;
+package com.taygo.tech.listeners;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -7,6 +7,7 @@ import java.nio.file.Paths;
 import java.util.Calendar;
 import java.util.Date;
 
+import com.taygo.tech.factory.DriverFactory;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -15,7 +16,6 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-import com.qa.opencart.factory.DriverFactory;
 
 
 public class ExtentReportListener implements ITestListener {
@@ -43,12 +43,12 @@ public class ExtentReportListener implements ITestListener {
 		
 		extentReports = new ExtentReports();
 		ExtentSparkReporter reporter = new ExtentSparkReporter(OUTPUT_FOLDER + FILE_NAME);
-		reporter.config().setReportName("Open Cart Automation Test Results");
+		reporter.config().setReportName("Taygo Automation Test Results");
 		extentReports.attachReporter(reporter);
-		extentReports.setSystemInfo("System", "MAC");
-		extentReports.setSystemInfo("Author", "Naveen AutomationLabs");
+		extentReports.setSystemInfo("System", "window");
+		extentReports.setSystemInfo("Author", "QA AutomationLabs");
 		extentReports.setSystemInfo("Build#", "1.1");
-		extentReports.setSystemInfo("Team", "OpenCart QA Team");
+		extentReports.setSystemInfo("Team", "QA taygo");
 		extentReports.setSystemInfo("Customer Name", "NAL");
 		extentReports.setSystemInfo("ENV NAME", System.getProperty("env"));
 

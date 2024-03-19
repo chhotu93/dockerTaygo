@@ -1,4 +1,4 @@
-package com.qa.opencart.exception;
+package com.taygo.tech.exception;
 
 public class FrameworkException extends RuntimeException{
 	

@@ -1,4 +1,4 @@
-package com.qa.opencart.utils;
+package com.taygo.tech.utils;
 
 public class Util {
 	

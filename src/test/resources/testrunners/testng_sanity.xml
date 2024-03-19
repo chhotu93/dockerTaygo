@@ -6,12 +6,12 @@
 
 	<listeners>
 		<listener
-			class-name="com.qa.opencart.listeners.ExtentReportListener" />
+			class-name="com.taygo.tech.listeners.ExtentReportListener" />
 		<listener
-			class-name="com.qa.opencart.listeners.TestAllureListener" />
+			class-name="com.taygo.tech.listeners.TestAllureListener" />
 
 		<!-- <listener
-		class-name="com.qa.opencart.listeners.AnnotationTransformer" 
+		class-name="listeners.com.taygo.tech.AnnotationTransformer"
 			/> -->
 	</listeners>
 
@@ -19,7 +19,7 @@
 		<parameter name="browser" value="chrome" />
 
 		<classes>
-			<class name="com.qa.opencart.tests.LoginPageTest" />
+			<class name="com.taygo.tech.tests.LoginPageTest" />
 		</classes>
 	</test>
 </suite>	

@@ -1,4 +1,4 @@
-package com.qa.opencart.utils;
+package com.taygo.tech.utils;
 
 import java.time.Duration;
 import java.util.ArrayList;
@@ -20,8 +20,8 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.qa.opencart.exception.FrameworkException;
-import com.qa.opencart.factory.DriverFactory;
+import com.taygo.tech.exception.FrameworkException;
+import com.taygo.tech.factory.DriverFactory;
 
 import io.qameta.allure.Step;
 

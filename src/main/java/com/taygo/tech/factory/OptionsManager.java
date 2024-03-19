@@ -1,4 +1,4 @@
-package com.qa.opencart.factory;
+package com.taygo.tech.factory;
 
 import java.util.HashMap;
 import java.util.Map;
